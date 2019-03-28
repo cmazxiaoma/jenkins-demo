@@ -16,6 +16,6 @@ public class JenkinsController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "hello,jenkins,docker";
+        return "hello,jenkins,aliyun.docker";
     }
 }
