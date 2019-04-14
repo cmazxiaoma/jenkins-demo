@@ -1,3 +1,0 @@
-from docker.io/tomcat:latest
-maintainer 1363739582@qq.com
-copy demo-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/demo.war
