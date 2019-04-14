@@ -1,6 +1,6 @@
 FROM maven:3.5-jdk-8
 MAINTAINER cmazxiaoma
 RUN mvn help:system
-RUN su root
-RUN chown -R 1000 /root/.m2
+COPY settings.xml /root/.m2/
+RUN "mkdir -p /mvn-resource/repository"
 CMD echo "This is CMD."
