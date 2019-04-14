@@ -27,7 +27,7 @@ services:
     working_dir: /jenkins-demo
     volumes:
       - .:/jenkins-demo
-      - ~/.m2:/mvn/usr/local-resource
+      - ~/.m2:/usr/local/mvn-resource
     expose:
       - "8080"
     depends_on:
