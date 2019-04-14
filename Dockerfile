@@ -8,4 +8,4 @@ cd /usr/local/mvn-resource/repository && \
 echo $(mvn --version) && \
 mvn help:system && \
 chmod 777 /usr/local/mvn-resource && \
-chmod 777 /jenkins-demo && \
+chmod 777 /jenkins-demo
